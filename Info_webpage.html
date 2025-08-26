@@ -3,118 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .profile-card {
-            max-width: 700px;
-            margin: 50px auto;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            align-items: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-            gap: 20px;
-           
-            
-        }
-        .profile-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 12px rgb(255, 248, 248);
-        }
-        .profile-card img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            margin-bottom: 20px; 
-            border: 3px solid #020202;
-            object-fit: cover;
-        }
-        .profile-info {
-          text-align: rights;
-            flex: 1;
-
-        }
-        .profile-card h2 .p {
-            font-size: 24px;
-            margin-bottom: 10px;
-            color: #00000000;
-            text-align: center;
-        }
-        .profile-card p {
-            font-size: 16px;
-            margin: 5px 0;
-        }
-        .section-title {
-            font-size: 25px;
-            color: #000000;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            text-align: left;
-
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-        }
-        ul li {
-            margin: 5px 0;
-        }
-        ul li strong {
-            font-weight: bold;
-        }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Ean charls D. Cuerbo | Professional Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- For icons -->
 </head>
 <body>
-    <div class="profile-card">
-        <img src="profile_pic.jpeg" alt="Profile Picture">
-        <h2>Charls D. Cuerbo</h2>
-        <p>Aspiring Software Developer</p>
-        <p>Age: 16 years old</p>
-        <p>Address: P-1B Pag-antayan Cantilan, Surigao del Sur</p>
-        
-        <div class="section-title">About Me</div>
-        <p>I am a beginner in software development, eager to learn and grow in the field of technology. I enjoy solving problems and building creative solutions.</p>
-        
-        <div class="section-title">Contact Information</div>
-        <ul>
-            <li><strong>Phone:</strong> 0946 500 7954</li>
-            <li><strong>Messenger Account:</strong> <a href="https://m.me/charls.cuerbo" target="_blank">Charls D. Cuerbo</a></li>
-            <li><strong>Email Account:</strong> <a href="mailto:boboy.cuerbo@gmail.com">boboy.cuerbo@gmail.com</a></a></li>
-            <li><strong>Github Account:</strong> <a href="https://github.com/github-charlscuerbo03" target="_blank">github.com/github-charlscuerbo03</a></li>
-        </ul>
-        
 
-        <div class =section-title>Hobbies</div>
-        <ul>
-            <li>Painting</li>
-            <li>Carving</li>
-            <li>Coding</li>
-            <li>Playing Doulingo</li>
-            <li>Cycling</li>
 
-        </ul>
-        
-        <div class="section-title">Education</div>
-        <ul>
-            <li>Elementary: NAUMES</li>
-            <li>High School: SMCCI</li>
-        </ul>
-    </div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title"> Ean Charls Cuerbo</h1>
+            <p class="hero-subtitle">Beginner Iconographer | Avid Explorer | Aspiring web developer</p>
+            <a href="#about" class="hero-button">Discover My Story</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <img src="profile_pic.jpeg" alt="A professional photo of you" class="about-image">
+                <div class="about-text">
+                    <h2>Hello, I'm Charls Cuerbo.</h2>
+                    <p>
+                        Welcome to my personal space on the web. I am a driven and curious
+                         individual with a deep passion for  technology, art, and exploration.
+                        . My journey has been one of continuous learning and growth, 
+                         both personally and professionally.
+                          I thrive on solving complex problems and turning creative ideas into reality.
+                    </p>
+                    <p>
+                        Outside of my professional life, I believe in living a balanced and fulfilling life,
+                         which is where my hobbies come in. They are not just pastimes, but extensions of who I am.
+                    </p>
+                </div>
+           
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <div class="container">
+                <h2 class="section-title">My Passions & Hobbies</h2>
+                <div class="hobbies-grid">
+
+                    <div class="hobby-card">
+                        <img src="arduino.jpeg" alt="A person coding on a laptop">
+                        <img src="moisture sensor.jpeg">
+                        <div class="hobby-card-content">
+                            <h3>Coding & electronic Development</h3>
+                            <p>I love building things for the web and for Electronic development. From simple projects to complex applications, the challenge of creating something from nothing is what drives me.</p>
+                        </div>
+                    </div>
+
+                    <div class="hobby-card">
+                        <img src="paint.jpeg">
+                        <img src="salus.jpeg">
+                        <div class="hobby-card-content">
+                            <h3>Iconography</h3>
+                            <p>There is nothing more satisfying than making things that can give Greater Glory to God. Painting an icon is one of the best way to give glory to our Creator.</p>
+                        </div>
+                    </div>
+
+                    <div class="hobby-card">
+                        <img src="tlm.jpg">
+                        <img src="s.sebastian.jpeg">
+                        <div class="hobby-card-content">
+                            <h3>Classic Things</h3>
+                            <p>Attending a traditional liturgy of the Catholic Church is one of the best and relaxing way human can ever experience. It is the way how ancestors worship the one and true God. It is indeed Heaven on Earth!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container">
+             <!-- REPLACE WITH YOUR INFORMATION -->
+            <h2>Get In Touch</h2>
+            <p>Feel free to reach out via email or connect with me on social media.</p>
+            <a href="boboy.cuerbo@gmail.com" class="footer-email">boboy.cuerbo@gmail.com</a>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+            </div>
+             <!-- END OF YOUR INFORMATION -->
+            <p class="copyright">© 2025 by Ean Charls D. Cuerbo.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome Kit for Icons -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-code.js" crossorigin="anonymous"></script>
+    <!-- You can get a free kit code from fontawesome.com. For now, some basic icons might work without it. -->
+    <script>
+      // A simple script to add a class on scroll for animations
+      document.addEventListener('scroll', function() {
+          const sections = document.querySelectorAll('.about-section, .hobbies-section');
+          const triggerBottom = window.innerHeight / 5 * 4;
+          sections.forEach(section => {
+              const sectionTop = section.getBoundingClientRect().top;
+              if(sectionTop < triggerBottom) {
+                  section.classList.add('visible');
+              }
+          });
+      });
+    </script>
 </body>
 </html>
